@@ -1,0 +1,30 @@
+gFB-gSJF-bursty : -arb PR -batch-type globalFB -rank-type globalSJF -bursty-ratio 0.25 -bursty-delta 0.5
+gFB-gRR-bursty  : -arb PR -batch-type globalFB -rank-type globalRR -bursty-ratio 0.25 -bursty-delta 0.5
+gFB-gRD-bursty  : -arb PR -batch-type globalFB -rank-type globalRandom -bursty-ratio 0.25 -bursty-delta 0.5
+gFB-gSJF-UR : -arb PR -batch-type globalFB -rank-type globalSJF
+gFB-gRR-UR  : -arb PR -batch-type globalFB -rank-type globalRR
+gFB-gRD-UR  : -arb PR -batch-type globalFB -rank-type globalRandom
+
+gTB-gSJF-bursty : -arb PR -batch-type globalTB -rank-type globalSJF -bursty-ratio 0.25 -bursty-delta 0.5
+gTB-gRR-bursty  : -arb PR -batch-type globalTB -rank-type globalRR -bursty-ratio 0.25 -bursty-delta 0.5
+gTB-gRD-bursty  : -arb PR -batch-type globalTB -rank-type globalRandom -bursty-ratio 0.25 -bursty-delta 0.5
+gTB-gSJF-UR : -arb PR -batch-type globalTB -rank-type globalSJF
+gTB-gRR-UR  : -arb PR -batch-type globalTB -rank-type globalRR
+gTB-gRD-UR  : -arb PR -batch-type globalTB -rank-type globalRandom
+
+gRB-gSJF-bursty : -arb PR -batch-type globalRB -rank-type globalSJF -bursty-ratio 0.25 -bursty-delta 0.5
+gRB-gRR-bursty  : -arb PR -batch-type globalRB -rank-type globalRR -bursty-ratio 0.25 -bursty-delta 0.5
+gRB-gRD-bursty  : -arb PR -batch-type globalRB -rank-type globalRandom -bursty-ratio 0.25 -bursty-delta 0.5
+gRB-gSJF-UR : -arb PR -batch-type globalRB -rank-type globalSJF
+gRB-gRR-UR  : -arb PR -batch-type globalRB -rank-type globalRR
+gRB-gRD-UR  : -arb PR -batch-type globalRB -rank-type globalRandom
+
+lFB-gRR-bursty  : -arb PR -batch-type localFB -rank-type localRR -bursty-ratio 0.25 -bursty-delta 0.5
+lFB-gRD-bursty  : -arb PR -batch-type localFB -rank-type localRandom -bursty-ratio 0.25 -bursty-delta 0.5
+lFB-gRR-UR  : -arb PR -batch-type localFB -rank-type localRR
+lFB-gRD-UR  : -arb PR -batch-type localFB -rank-type localRandom
+
+lFB-gRR-bursty  : -arb PR -batch-type localFB -rank-type localRR -bursty-ratio 0.25 -bursty-delta 0.5
+lFB-gRD-bursty  : -arb PR -batch-type localFB -rank-type localRandom -bursty-ratio 0.25 -bursty-delta 0.5
+lFB-gRR-UR  : -arb PR -batch-type localFB -rank-type localRR
+lFB-gRD-UR  : -arb PR -batch-type localFB -rank-type localRandom

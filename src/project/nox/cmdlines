@@ -1,0 +1,14 @@
+# Crossbar
+nox -t XBAR -nr 1 -nc 8 -l 0.1 -mlen 4 -nvc 2
+# Bus
+nox -t BUS -nr 1 -nc 8 -l 0.1 -mlen 4 -nvc 2
+# Ring
+nox -t TORUS -nr 4 -nc 1 -l 0.1 -mlen 4 -nvc 2
+# Concentrated Ring
+nox -t TORUS -nr 4 -nc 1 -cdegree 4 -l 0.1 -mlen 4 -nvc 2
+# Mesh
+nox -t MESH -nr 4 -nc 4 -l 0.1 -mlen 4 -nvc 2
+# Concentrated MESH
+nox -t MESH -nr 4 -nc 4 -cdegree 4 -l 0.1 -mlen 4 -nvc 2
+#Flattened ButterFly
+nox -t BFLY -ary 4 -fly 4 -l 0.1 -mlen 4 -nvc 2

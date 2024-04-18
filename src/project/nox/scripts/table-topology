@@ -1,0 +1,20 @@
+mesh-16n : -num-PE 16 -t MESH -nr 4 -nc 4 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4 
+mesh-32n : -num-PE 32 -t MESH -nr 8 -nc 4 -max-msgs 100000 -fsize 342 -nvc 4 -bd 8 
+mesh-64n : -num-PE 64 -t MESH -nr 8 -nc 8 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4 
+mesh-128n : -num-PE 128 -t MESH -nr 16 -nc 8 -max-msgs 100000 -fsize 342 -nvc 4 -bd 8 
+mesh-256n : -num-PE 256 -t MESH -nr 16 -nc 16 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4 
+cmesh-16n : -num-PE 16 -t MESH -nr 2 -nc 2 -max-msgs 100000 -fsize 1024 -nvc 4 -bd 2 -cdegree 4 
+cmesh-32n : -num-PE 32 -t MESH -nr 4 -nc 2 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4 -cdegree 4 
+cmesh-64n : -num-PE 64 -t MESH -nr 4 -nc 4 -max-msgs 100000 -fsize 1024 -nvc 4 -bd 2 -cdegree 4 
+cmesh-128n : -num-PE 128 -t MESH -nr 8 -nc 4 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4 -cdegree 4 
+cmesh-256n : -num-PE 256 -t MESH -nr 8 -nc 8 -max-msgs 100000 -fsize 1024 -nvc 4 -bd 2 -cdegree 4 
+bfly-16n : -num-PE 16 -t BFLY -ary 4 -fly 2 -max-msgs 100000 -fsize 512 -nvc 2 -bd 8
+bfly-32n : -num-PE 32 -t BFLY -ary 5 -fly 2 -max-msgs 100000 -fsize 342 -nvc 2 -bd 16
+bfly-64n : -num-PE 64 -t BFLY -ary 4 -fly 3 -max-msgs 100000 -fsize 256 -nvc 2 -bd 8
+bfly-128n : -num-PE 125 -t BFLY -ary 5 -fly 3 -max-msgs 100000 -fsize 171 -nvc 2 -bd 16
+bfly-256n : -num-PE 256 -t BFLY -ary 4 -fly 4 -max-msgs 100000 -fsize 128 -nvc 2 -bd 16
+hyb-16n  : -num-PE 16 -t MESH -nr 1 -nc 2 -cdegree 8 -hybrid 0.5 -max-msgs 100000 -fsize 512 -nvc 4 -bd 8
+hyb-32n  : -num-PE 32 -t MESH -nr 2 -nc 2 -cdegree 8 -hybrid 0.5 -max-msgs 100000 -fsize 512 -nvc 4 -bd 8
+hyb-64n  : -num-PE 64 -t MESH -nr 4 -nc 2 -cdegree 8 -hybrid 0.5 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4
+hyb-128n : -num-PE 128 -t MESH -nr 4 -nc 4 -cdegree 8 -hybrid 0.5 -max-msgs 100000 -fsize 512 -nvc 4 -bd 4
+hyb-256n : -num-PE 256 -t MESH -nr 8 -nc 4 -cdegree 8 -hybrid 0.5 -max-msgs 100000 -fsize 512 -nvc 4 -bd 8

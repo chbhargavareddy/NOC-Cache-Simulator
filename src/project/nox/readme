@@ -1,0 +1,75 @@
+===================================================================
+Notice:
+This is a draft version of the NOC simulator and since it's still
+under developing stage, please do not distribute the code.
+
+The use of this program is limited to the student who take CSE598B
+this semester.
+
+===================================================================
+Features:
+1. This simulator implements the behavior of the  3-stage pipelined 
+wormhole router. 
+ - Stage 1: Decoding / Routing
+ - Stage 2: Crossbar arbitration
+ - Stage 3: Crossbar traversal
+
+2. As for the message generation and injection part, more works need
+   to be done. For now, it generates messages in uniform distribution.
+   (I'm working on it and will post updated code later.)
+
+===================================================================
+Compile/Installation:
+1. This is very simple. Simply run 'comp.sh' file. It will generate 
+   an executable named 'noc_sim'. That's it.
+   
+===================================================================
+Execution.
+1. Run the simulator by executing 'noc_sim'. If no other options are
+   given, it'll use default options. To store the result, I suggest
+   redirecting the output to a file as shown below.
+
+   $ noc_sim > resutl.txt
+
+2. Options
+   Currently four options are available (refer to the sim_init.c file).
+
+   -l number 
+   : Specifies the load rate (default: 0.25).  
+     The number should be between 0.0 ~ 1.0.
+
+   -r [DT/WF/AD/PA] 
+   : Specifies the routing algorithm (default: DT).
+     Currently only DT(deterministic; x-y routing) is supported and 
+     other algorithms will be available soon.
+     (Do not use other options until noticed)
+
+   -t [MESH/TORUS]
+   : Specifies the topology (default: MESH).
+     Currently both MESH and TORUS are available.
+   
+   -v 
+   : Verbose mode. If you specify this option, you'll be able
+     to see the detailed movement of each flit. But, be careful.
+     This option will make the simulator generate huge output.
+     (result file can be over 2-300MB in extreme cases).
+     This should not be used unless you're modifying the code and
+     need to see the detailed information to check what's wrong.
+	       
+Example) 
+  When you want to run the simulator with the load rate 0.35
+  with Deterministic routing algorithm on the MESH topology and 
+  want to get verbose output directed to the file 'result.txt'.
+
+  $ noc_sim -l 0.35 -r DT -t MESH -v > result.txt
+
+  (Here, -r DT -t MESH can be omitted since they're default values.)
+
+  * The sequence of the options doesn't matter.
+
+===================================================================
+
+  For further questions, please send an email to dpark@cse.psu.edu. 
+  Thank you.
+
+===================================================================

@@ -1,0 +1,58 @@
+BEGIN{start = 0;start_cnt = 5}
+/Total simulation cycle/  {cycle = $6}
+/ejected ft/              {
+                            split($10, tmp, "/");
+                            ft=tmp[1];
+                          } 
+/Avg. Message Latency/    {lat = $6}
+/Number of buffer reads/  {buf_reads = $7}
+/Number of buffer writes/ {buf_writes = $7}
+/Number of VA used/       {va_used = $7}
+/Number of SA used/       {sa_used = $7}
+/Number of crossbar used/ {xbar_used = $7}
+/Number of link 1 used/   {link[1] = $8}
+/Number of link 2 used/   {link[2] = $8}
+/Number of link 3 used/   {link[3] = $8}
+/Number of link 4 used/   {link[4] = $8}
+/Number of link 5 used/   {link[5] = $8}
+/Number of link 6 used/   {link[6] = $8}
+/Number of link 7 used/   {link[7] = $8}
+
+/Setting/      {
+                 if(start == 1) 
+                 {
+                   printf("%s,", cycle);  
+                   printf("%s,", ft);  
+                   printf("%s,", lat);
+                   printf("%s,", buf_reads);
+                   printf("%s,", buf_writes);
+                   printf("%s,", va_used);
+                   printf("%s,", sa_used);
+                   printf("%s,", xbar_used);
+                   printf("%s,", link[1]);
+                   printf("%s,", link[2]);
+                   printf("%s,", link[3]);
+                   printf("%s,", link[4]);
+                   printf("%s,", link[5]);
+                   printf("%s,", link[6]);
+                   printf("%s,\n", link[7]);
+                 } 
+                 start = 1; 
+               } 
+END{
+     printf("%s,", cycle);  
+     printf("%s,", ft);  
+     printf("%s,", lat);
+     printf("%s,", buf_reads);
+     printf("%s,", buf_writes);
+     printf("%s,", va_used);
+     printf("%s,", sa_used);
+     printf("%s,", xbar_used);
+     printf("%s,", link[1]);
+     printf("%s,", link[2]);
+     printf("%s,", link[3]);
+     printf("%s,", link[4]);
+     printf("%s,", link[5]);
+     printf("%s,", link[6]);
+     printf("%s,", link[7]); 
+   } 

@@ -1,0 +1,1 @@
+ ./bin/nox -num-PE 64 -nr 8 -nc 8 -nvc 1 -bd 15 -mlen 2 -max-msgs 10 -arb RR -t FBFLY -l 0.01  -p NR -v

@@ -1,0 +1,99 @@
+####Sim Start###
+###FRAME_SIZE 
+#---LOAD: 20
+-num-PE64-tMESH-nr8-nc8-nvc6-mlen4-max-msgs100000-pNR-bd5-arbGSF-atomic-l.20-frame-size2-window-size6
+Setting num nodes:64 num PEs:64 num pc:5 nic pc:1 num vc:6 msg len:4 buf depth:5 cdegree:1 link_length:1.00
+Power Config not found !! tech = 35 P = 5 W = 64 defaulting to MESH at 45nm, 64 bit flit size
+Updating HeadFrame to 1 @16 AbsoluteFrameNumber 45159090036408320!!
+0.02K 0.02K 0.02K 0.01K 0.02K 0.01K 0.01K 0.02K 
+0.00K 0.01K 0.02K 0.01K 0.02K 0.02K 0.01K 0.02K 
+0.01K 0.03K 0.02K 0.02K 0.01K 0.02K 0.02K 0.01K 
+0.01K 0.02K 0.01K 0.01K 0.02K 0.00K 0.00K 0.00K 
+0.00K 0.01K 0.02K 0.02K 0.01K 0.03K 0.01K 0.00K 
+0.02K 0.02K 0.02K 0.01K 0.02K 0.02K 0.02K 0.01K 
+0.02K 0.00K 0.02K 0.02K 0.01K 0.01K 0.02K 0.02K 
+0.02K 0.02K 0.01K 0.01K 0.02K 0.02K 0.01K 0.01K 
+10000-[46515/47236/124.37/q:20.56/7.38%][L:0/R:0/A:0][0/0][186157/188944][0.00][46515/7.27%/124.37]
+control msgs :0 data msgs :46515
+Updating HeadFrame to 5 @10113 AbsoluteFrameNumber 45159090036408420!!
+2.97K 2.96K 3.00K 2.93K 2.99K 2.98K 2.97K 2.94K 
+2.96K 2.97K 2.91K 2.96K 2.97K 2.94K 2.92K 2.97K 
+2.95K 2.93K 2.91K 2.97K 2.93K 2.96K 2.95K 2.96K 
+2.96K 2.95K 2.91K 2.96K 2.95K 2.96K 2.94K 2.97K 
+2.92K 2.95K 2.96K 2.97K 2.94K 2.96K 2.92K 2.98K 
+2.92K 2.97K 2.98K 2.91K 2.96K 2.97K 2.98K 2.96K 
+2.98K 2.91K 2.95K 2.92K 2.95K 2.97K 3.00K 2.96K 
+2.97K 2.94K 2.95K 2.91K 2.94K 2.94K 2.94K 2.96K 
+20000-[92917/93066/123.72/q:20.10/7.27%][L:0/R:0/A:0][0/0][371675/372264][0.00][46402/7.25%/123.06]
+control msgs :0 data msgs :92917
+Updating HeadFrame to 3 @20420 AbsoluteFrameNumber 45159090036408520!!
+5.92K 5.94K 5.98K 5.92K 5.99K 6.03K 5.95K 5.91K 
+5.94K 5.95K 5.87K 5.95K 5.97K 5.93K 5.89K 5.96K 
+5.91K 5.94K 5.90K 5.99K 5.91K 5.96K 5.91K 5.94K 
+5.94K 5.95K 5.91K 5.92K 5.92K 5.92K 5.93K 5.93K 
+5.88K 5.90K 5.96K 5.98K 5.93K 5.92K 5.89K 5.96K 
+5.94K 5.94K 6.00K 5.92K 5.96K 5.93K 5.99K 5.92K 
+6.00K 5.90K 5.92K 5.90K 5.93K 6.00K 5.98K 5.96K 
+6.00K 5.87K 5.96K 5.90K 5.94K 5.93K 5.93K 5.96K 
+
+============ Summary of the simulation ============
+- Total simulation cycle        : 21502 cycles
+- Total Aged Flits (10~20/>20)  : 31273/329351 flits
+- # ejected msg / # injected msg: 100000/100007 msgs
+- # ejected ft / # injected ft  : 400003/400028 flits
+- Injection Rate (Actual/Set)   : 7.267% / 20.000% for nodes:(64/64)
+- Avg. Throughput               :        4.6507 packets/cycles 
+- Avg. Message Latency          :    122.984330 cycles 
+- Avg. Queueing Latency          :     23.534190 cycles 
+- Avg. Bus Latency              :      0.000000 cycles 
+- Avg. Flit Latency             :    117.454124 cycles 
+- Avg. Flit Queueing Latency    :     19.893561 cycles 
+- Avg. Flit Blocking Latency    :     78.552473 cycles 
+- Avg. Flit Transfer Latency    :     19.008090 cycles 
+- Avg. Flit Network  Latency    :     97.560563 cycles 
+- Total Energy Consumption           :  20324.852364 nJ(10^-9)
+- Total Buffer Energy Consumption    :   4396.303262 nJ(10^-9)
+- Total Switching Energy Consumption :  13487.253683 nJ(10^-9)
+- Total Link Energy Consumption      :      0.000000 nJ(10^-9)
+- Total Arbiter Energy Consumption   :   2435.782760 nJ(10^-9)
+- Avg. Energy per message       :      0.184771 nJ(10^-9)
+- Avg. Energy Delay Product     :     24.996384 nJ*cycle
+  (=Total Energy * Avg. Latency)
+- Buffer Power consumption      :      0.408920 W
+- Switch Power consumption      :      1.254512 W
+- Link Power consumption        :      0.000000 W
+- Avg. Power consumption        :      1.890508 W
+- Power Delay Product           :    232.502870 W*cycle
+  (=Avg. Power * Avg. Latency)
+- Avg. Response Time            :  58727.062047 ns     
+- Avg. Network Response Time    :  48780.281648 ns     
+- Avg. Number of hops per packet  :      5.336010 hops   
+- Avg. Link Throughput(254)      :      0.386479 flits/node/cycle
+- Avg. Bus  Throughput(64)      :      0.386479 flits/node/cycle
+- Avg. Buffer Utilization       :     12.509920 %
+- Avg. HBH Buffer Utilization   :      0.000000 %
+- Total number of escape msgs   : 0 
+- Avg. Control Network Blocking Latency :           nan cycles 
+- Avg. Control Latency (per flit)       :           nan cycles 
+- Avg. Control Queueing Latency         :           nan cycles 
+- Avg. Control Network Latency          :           nan cycles 
+- Avg. Data Network Blocking Latency    :     78.552473 cycles 
+- Avg. Data Latency (per flit)          :      0.000000 cycles 
+- Avg. Data Queueing Latency            :     21.393557 cycles 
+- Avg. Data Network Latency             :     97.560563 cycles 
+- Total number of Control msgs          : 0 
+- Total number of Data msgs             : 100000 
+- Total number of one hop flits         : 22508 
+- Total number of two hop flits         : 38772 
+- Total number of three hop flit        : 48656 
+- Total number of three plus hop flit   : 290067 
+- Ratio of short flits                  : 0.00
+===================================================
+- VC Utilization...
+- VC Utilzation for virtual circuit 0   : 0.17 
+- VC Utilzation for virtual circuit 1   : 0.17 
+- VC Utilzation for virtual circuit 2   : 0.17 
+- VC Utilzation for virtual circuit 3   : 0.17 
+- VC Utilzation for virtual circuit 4   : 0.17 
+- VC Utilzation for virtual circuit 5   : 0.17 
+122.9843 cycles 1.8905 W

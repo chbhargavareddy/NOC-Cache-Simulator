@@ -1,0 +1,8 @@
+MESH-16n-hr       : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca -hr
+MESH-16n-hr       : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca -hr
+MESH-16n-hr       : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca -hr
+MESH-16n-hr       : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca -hr
+HYBRIDR-16n-hr    : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01 -nuca -hr
+HYBRIDR-16n-hr    : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01 -nuca -hr
+HYBRIDR-16n-hr    : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca -hr
+HYBRIDR-16n-hr    : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca -hr

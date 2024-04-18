@@ -1,0 +1,9 @@
+./noxlat.sh 01  
+./noxlat.sh 02  
+./noxlat.sh 05  
+./noxlat.sh 10 
+./noxlat.sh 15 
+./noxlat.sh 20 
+./noxlat.sh 25 
+./noxlat.sh 35 
+./noxlat.sh 50 

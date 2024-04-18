@@ -1,0 +1,8 @@
+MESH        : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512
+MESH        : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256
+MESH        : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256
+MESH        : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256
+HYBRID-R    : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024
+HYBRID-R    : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024
+HYBRID-R    : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512
+HYBRID-R    : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512

@@ -1,0 +1,40 @@
+MESH-16n-ur-l0.01      : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01
+MESH-16n-ur-l0.02      : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02
+MESH-16n-ur-l0.03      : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.03
+MESH-16n-ur-l0.04      : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.04
+MESH-32n-ur-l0.05      : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.05
+MESH-32n-ur-l0.01      : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01
+MESH-32n-ur-l0.02      : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02
+MESH-32n-ur-l0.03      : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.03
+MESH-32n-ur-l0.04      : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.04
+MESH-64n-ur-l0.05      : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.05
+MESH-64n-ur-l0.01      : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01
+MESH-64n-ur-l0.02      : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02
+MESH-64n-ur-l0.03      : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.03
+MESH-64n-ur-l0.04      : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.04
+MESH-64n-ur-l0.05      : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.05
+MESH-128n-ur-l0.01      : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01
+MESH-128n-ur-l0.02      : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02
+MESH-128n-ur-l0.03      : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.03
+MESH-128n-ur-l0.04      : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.04
+MESH-128n-ur-l0.05      : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.05
+HYBRIDR-16n-ur-l0.01   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01
+HYBRIDR-16n-ur-l0.02   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.02
+HYBRIDR-16n-ur-l0.03   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.03
+HYBRIDR-16n-ur-l0.04   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.04
+HYBRIDR-16n-ur-l0.05   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.05
+HYBRIDR-32n-ur-l0.01   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01
+HYBRIDR-32n-ur-l0.02   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.02
+HYBRIDR-32n-ur-l0.03   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.03
+HYBRIDR-32n-ur-l0.04   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.04
+HYBRIDR-32n-ur-l0.05   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.05
+HYBRIDR-64n-ur-l0.01   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01
+HYBRIDR-64n-ur-l0.02   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02
+HYBRIDR-64n-ur-l0.03   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.03
+HYBRIDR-64n-ur-l0.04   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.04
+HYBRIDR-64n-ur-l0.05   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.05
+HYBRIDR-128n-ur-l0.01   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01
+HYBRIDR-128n-ur-l0.02   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02
+HYBRIDR-128n-ur-l0.03   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.03
+HYBRIDR-128n-ur-l0.04   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.04
+HYBRIDR-128n-ur-l0.05   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.05

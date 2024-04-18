@@ -1,0 +1,254 @@
+spawn ssh inti10
+Last login: Thu Jan 10 16:22:47 2008 from inti.cse.psu.edu
+inti10.cse.psu.edu 1% pgrep -u rdas nox
+inti10.cse.psu.edu 2% kill -9 -1
+Connection to inti10 closed by remote host.
+Connection to inti10 closed.
+spawn ssh inti11
+Last login: Thu Jan 10 16:23:08 2008 from inti.cse.psu.edu
+inti11.cse.psu.edu 1% pgrep -u rdas nox
+inti11.cse.psu.edu 2% kill -9 -1
+Connection to inti11 closed by remote host.
+Connection to inti11 closed.
+spawn ssh inti12
+Last login: Thu Jan 10 15:11:21 2008 from inti.cse.psu.edu
+inti12.cse.psu.edu 1% pgrep -u rdas nox
+inti12.cse.psu.edu 2% kill -9 -1
+Connection to inti12 closed by remote host.
+Connection to inti12 closed.
+spawn ssh inti13
+Last login: Thu Jan 10 15:11:41 2008 from inti.cse.psu.edu
+inti13.cse.psu.edu 1% pgrep -u rdas nox
+inti13.cse.psu.edu 2% kill -9 -1
+Connection to inti13 closed by remote host.
+Connection to inti13 closed.
+spawn ssh inti14
+Last login: Thu Jan 10 15:12:01 2008 from inti.cse.psu.edu
+inti14.cse.psu.edu 1% pgrep -u rdas nox
+inti14.cse.psu.edu 2% kill -9 -1
+Connection to inti14 closed by remote host.
+Connection to inti14 closed.
+spawn ssh inti16
+Last login: Thu Jan 10 15:12:21 2008 from inti.cse.psu.edu
+inti16.cse.psu.edu 1% pgrep -u rdas nox
+inti16.cse.psu.edu 2% kill -9 -1
+Connection to inti16 closed by remote host.
+Connection to inti16 closed.
+spawn ssh inti17
+Last login: Thu Jan 10 15:12:41 2008 from inti.cse.psu.edu
+inti17.cse.psu.edu 1% pgrep -u rdas nox
+inti17.cse.psu.edu 2% kill -9 -1
+Connection to inti17 closed by remote host.
+Connection to inti17 closed.
+spawn ssh inti18
+Last login: Thu Jan 10 15:13:01 2008 from inti.cse.psu.edu
+inti18.cse.psu.edu 1% pgrep -u rdas nox
+inti18.cse.psu.edu 2% kill -9 -1
+Connection to inti18 closed by remote host.
+Connection to inti18 closed.
+spawn ssh inti19
+Last login: Thu Jan 10 15:13:21 2008 from inti.cse.psu.edu
+inti19.cse.psu.edu 1% pgrep -u rdas nox
+inti19.cse.psu.edu 2% kill -9 -1
+Connection to inti19 closed by remote host.
+Connection to inti19 closed.
+spawn ssh inti20
+Last login: Thu Jan 10 15:13:41 2008 from inti.cse.psu.edu
+inti20.cse.psu.edu 1% pgrep -u rdas nox
+inti20.cse.psu.edu 2% kill -9 -1
+Connection to inti20 closed by remote host.
+Connection to inti20 closed.
+spawn ssh inti21
+Last login: Thu Jan 10 15:14:01 2008 from inti.cse.psu.edu
+inti21.cse.psu.edu 1% pgrep -u rdas nox
+inti21.cse.psu.edu 2% kill -9 -1
+Connection to inti21 closed by remote host.
+Connection to inti21 closed.
+spawn ssh inti22
+Last login: Thu Jan 10 15:14:21 2008 from inti.cse.psu.edu
+inti22.cse.psu.edu 1% pgrep -u rdas nox
+inti22.cse.psu.edu 2% kill -9 -1
+Connection to inti22 closed by remote host.
+Connection to inti22 closed.
+spawn ssh inti23
+Last login: Thu Jan 10 15:14:41 2008 from inti.cse.psu.edu
+inti23.cse.psu.edu 1% pgrep -u rdas nox
+inti23.cse.psu.edu 2% kill -9 -1
+Connection to inti23 closed by remote host.
+Connection to inti23 closed.
+spawn ssh inti24
+Last login: Thu Jan 10 15:15:03 2008 from inti.cse.psu.edu
+inti24.cse.psu.edu 1% pgrep -u rdas nox
+inti24.cse.psu.edu 2% kill -9 -1
+Connection to inti24 closed by remote host.
+Connection to inti24 closed.
+spawn ssh inti25
+Last login: Thu Jan 10 15:15:23 2008 from inti.cse.psu.edu
+inti25.cse.psu.edu 1% pgrep -u rdas nox
+inti25.cse.psu.edu 2% kill -9 -1
+Connection to inti25 closed by remote host.
+Connection to inti25 closed.
+spawn ssh inti26
+Last login: Thu Jan 10 15:15:43 2008 from inti.cse.psu.edu
+inti26.cse.psu.edu 1% pgrep -u rdas nox
+inti26.cse.psu.edu 2% kill -9 -1
+Connection to inti26 closed by remote host.
+Connection to inti26 closed.
+spawn ssh inti27
+Last login: Thu Jan 10 15:16:03 2008 from inti.cse.psu.edu
+inti27.cse.psu.edu 1% pgrep -u rdas nox
+inti27.cse.psu.edu 2% kill -9 -1
+Connection to inti27 closed by remote host.
+Connection to inti27 closed.
+spawn ssh inti28
+Last login: Thu Jan 10 15:16:23 2008 from inti.cse.psu.edu
+inti28.cse.psu.edu 1% pgrep -u rdas nox
+inti28.cse.psu.edu 2% kill -9 -1
+Connection to inti28 closed by remote host.
+Connection to inti28 closed.
+spawn ssh inti29
+Last login: Thu Jan 10 15:16:43 2008 from inti.cse.psu.edu
+inti29.cse.psu.edu 1% pgrep -u rdas nox
+inti29.cse.psu.edu 2% kill -9 -1
+Connection to inti29 closed by remote host.
+Connection to inti29 closed.
+spawn ssh inti30
+Last login: Thu Jan 10 15:17:03 2008 from inti.cse.psu.edu
+inti30.cse.psu.edu 1% pgrep -u rdas nox
+inti30.cse.psu.edu 2% kill -9 -1
+Connection to inti30 closed by remote host.
+Connection to inti30 closed.
+spawn ssh inti31
+Last login: Thu Jan 10 15:17:23 2008 from inti.cse.psu.edu
+inti31.cse.psu.edu 1% pgrep -u rdas nox
+inti31.cse.psu.edu 2% kill -9 -1
+Connection to inti31 closed by remote host.
+Connection to inti31 closed.
+spawn ssh inti32
+Last login: Thu Jan 10 15:17:43 2008 from inti.cse.psu.edu
+inti32.cse.psu.edu 1% pgrep -u rdas nox
+inti32.cse.psu.edu 2% kill -9 -1
+Connection to inti32 closed by remote host.
+Connection to inti32 closed.
+spawn ssh inti33
+Last login: Thu Jan 10 15:18:03 2008 from inti.cse.psu.edu
+inti33.cse.psu.edu 1% pgrep -u rdas nox
+inti33.cse.psu.edu 2% kill -9 -1
+Connection to inti33 closed by remote host.
+Connection to inti33 closed.
+spawn ssh inti34
+Last login: Thu Jan 10 15:18:23 2008 from inti.cse.psu.edu
+inti34.cse.psu.edu 1% pgrep -u rdas nox
+inti34.cse.psu.edu 2% kill -9 -1
+Connection to inti34 closed by remote host.
+Connection to inti34 closed.
+spawn ssh inti35
+Last login: Thu Jan 10 15:18:43 2008 from inti.cse.psu.edu
+inti35.cse.psu.edu 1% pgrep -u rdas nox
+inti35.cse.psu.edu 2% kill -9 -1
+Connection to inti35 closed by remote host.
+Connection to inti35 closed.
+spawn ssh inti36
+Permission denied (publickey,gssapi-with-mic,password).
+spawn ssh inti37
+Last login: Thu Jan 10 15:19:23 2008 from inti.cse.psu.edu
+inti37.cse.psu.edu 1% pgrep -u rdas nox
+inti37.cse.psu.edu 2% kill -9 -1
+Connection to inti37 closed by remote host.
+Connection to inti37 closed.
+spawn ssh inti38
+Last login: Thu Jan 10 15:19:43 2008 from inti.cse.psu.edu
+inti38.cse.psu.edu 1% pgrep -u rdas nox
+inti38.cse.psu.edu 2% kill -9 -1
+Connection to inti38 closed by remote host.
+Connection to inti38 closed.
+spawn ssh inti39
+Last login: Thu Jan 10 15:20:04 2008 from inti.cse.psu.edu
+inti39.cse.psu.edu 1% pgrep -u rdas nox
+inti39.cse.psu.edu 2% kill -9 -1
+Connection to inti39 closed by remote host.
+Connection to inti39 closed.
+spawn ssh inti40
+Last login: Thu Jan 10 12:37:05 2008 from inti.cse.psu.edu
+inti40.cse.psu.edu 1% pgrep -u rdas nox
+inti40.cse.psu.edu 2% kill -9 -1
+Connection to inti40 closed by remote host.
+Connection to inti40 closed.
+spawn ssh inti41
+Last login: Thu Jan 10 12:37:05 2008 from inti.cse.psu.edu
+inti41.cse.psu.edu 1% pgrep -u rdas nox
+inti41.cse.psu.edu 2% kill -9 -1
+Connection to inti41 closed by remote host.
+Connection to inti41 closed.
+spawn ssh inti42
+Last login: Thu Jan 10 12:37:06 2008 from inti.cse.psu.edu
+inti42.cse.psu.edu 1% pgrep -u rdas nox
+inti42.cse.psu.edu 2% kill -9 -1
+Connection to inti42 closed by remote host.
+Connection to inti42 closed.
+spawn ssh inti43
+Last login: Thu Jan 10 12:37:06 2008 from inti.cse.psu.edu
+inti43.cse.psu.edu 1% pgrep -u rdas nox
+inti43.cse.psu.edu 2% kill -9 -1
+Connection to inti43 closed by remote host.
+Connection to inti43 closed.
+spawn ssh inti45
+Last login: Thu Jan 10 12:37:07 2008 from inti.cse.psu.edu
+inti45.cse.psu.edu 1% pgrep -u rdas nox
+inti45.cse.psu.edu 2% kill -9 -1
+Connection to inti45 closed by remote host.
+Connection to inti45 closed.
+spawn ssh inti46
+Last login: Thu Jan 10 12:37:07 2008 from inti.cse.psu.edu
+inti46.cse.psu.edu 1% pgrep -u rdas nox
+inti46.cse.psu.edu 2% kill -9 -1
+Connection to inti46 closed by remote host.
+Connection to inti46 closed.
+spawn ssh inti48
+Last login: Thu Jan 10 12:37:08 2008 from inti.cse.psu.edu
+inti48.cse.psu.edu 1% pgrep -u rdas nox
+inti48.cse.psu.edu 2% kill -9 -1
+Connection to inti48 closed by remote host.
+Connection to inti48 closed.
+spawn ssh inti49
+Last login: Thu Jan 10 12:37:08 2008 from inti.cse.psu.edu
+inti49.cse.psu.edu 1% pgrep -u rdas nox
+inti49.cse.psu.edu 2% kill -9 -1
+Connection to inti49 closed by remote host.
+Connection to inti49 closed.
+spawn ssh inti50
+Last login: Thu Jan 10 12:37:09 2008 from inti.cse.psu.edu
+inti50.cse.psu.edu 1% pgrep -u rdas nox
+inti50.cse.psu.edu 2% kill -9 -1
+Connection to inti50 closed by remote host.
+Connection to inti50 closed.
+spawn ssh inti51
+Last login: Thu Jan 10 12:37:09 2008 from inti.cse.psu.edu
+inti51.cse.psu.edu 1% pgrep -u rdas nox
+inti51.cse.psu.edu 2% kill -9 -1
+Connection to inti51 closed by remote host.
+Connection to inti51 closed.
+spawn ssh inti52
+Last login: Thu Jan 10 12:37:10 2008 from inti.cse.psu.edu
+inti52.cse.psu.edu 1% pgrep -u rdas nox
+inti52.cse.psu.edu 2% kill -9 -1
+Connection to inti52 closed by remote host.
+Connection to inti52 closed.
+spawn ssh inti53
+Last login: Thu Jan 10 12:37:10 2008 from inti.cse.psu.edu
+inti53.cse.psu.edu 1% pgrep -u rdas nox
+inti53.cse.psu.edu 2% kill -9 -1
+Connection to inti53 closed by remote host.
+Connection to inti53 closed.
+spawn ssh inti54
+Last login: Thu Jan 10 12:37:11 2008 from inti.cse.psu.edu
+inti54.cse.psu.edu 1% pgrep -u rdas nox
+inti54.cse.psu.edu 2% kill -9 -1
+Connection to inti54 closed by remote host.
+Connection to inti54 closed.
+spawn ssh inti55
+Last login: Thu Jan 10 12:37:11 2008 from inti.cse.psu.edu
+inti55.cse.psu.edu 1% pgrep -u rdas nox
+inti55.cse.psu.edu 2% kill -9 -1
+Connection to inti55 closed by remote host.
+Connection to inti55 closed.

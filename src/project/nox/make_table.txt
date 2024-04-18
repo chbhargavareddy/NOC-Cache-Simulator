@@ -1,0 +1,14 @@
+BEGIN{start = 0;start_cnt = 5}
+/Avg. Message Latency/ {tmp = $6}
+/Setting/      {
+                 if(start == 1) 
+                 { 
+                   if(start_cnt == 1)  
+                     printf("%s, ", tmp);
+                   start_cnt --;
+                   if(start_cnt == 0) 
+                    start_cnt = 5; 
+                 } 
+                 start = 1; 
+               } 
+END{printf("%s", tmp);}

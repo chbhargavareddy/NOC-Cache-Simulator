@@ -1,0 +1,8 @@
+32	hybrid-T8	TORUS	2	2	8	0.50
+32	hybrid-M8	MESH	2	2	8	0.50
+32	hybrid-R8	TORUS	1	4	8	0.50
+32	bfly	BFLY	3	3	4	0.00
+32	cmesh4	MESH	4	2	4	0.00
+32	cmesh-L4	MESH	4	2	4	0.00
+32	cmesh2	MESH	4	4	2	0.00
+32	mesh	MESH	8	4	1	0.00

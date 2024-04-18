@@ -1,0 +1,40 @@
+MESH-16n-nuca-l0.01     : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.005 -nuca
+MESH-16n-nuca-l0.02     : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca
+MESH-16n-nuca-l0.03     : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.015 -nuca
+MESH-16n-nuca-l0.04     : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02 -nuca
+MESH-16n-nuca-l0.05     : -nr 4 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 512 -l 0.025 -nuca
+MESH-32n-nuca-l0.01     : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.005 -nuca
+MESH-32n-nuca-l0.02     : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca
+MESH-32n-nuca-l0.03     : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.015 -nuca
+MESH-32n-nuca-l0.04     : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02 -nuca
+MESH-32n-nuca-l0.05     : -nr 8 -nc 4 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.025 -nuca
+MESH-64n-nuca-l0.01     : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.005 -nuca
+MESH-64n-nuca-l0.02     : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca
+MESH-64n-nuca-l0.03     : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.015 -nuca
+MESH-64n-nuca-l0.04     : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02 -nuca
+MESH-64n-nuca-l0.05     : -nr 8 -nc 8 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.025 -nuca
+MESH-128n-nuca-l0.01     : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.005 -nuca
+MESH-128n-nuca-l0.02     : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.01 -nuca
+MESH-128n-nuca-l0.03     : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.015 -nuca
+MESH-128n-nuca-l0.04     : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.02 -nuca
+MESH-128n-nuca-l0.05     : -nr 8 -nc 16 -t MESH -nvc 2 -max-msgs 400000 -fsize 256 -l 0.025 -nuca
+HYBRIDR-16n-nuca-l0.01   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.005 -nuca
+HYBRIDR-16n-nuca-l0.02   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01 -nuca
+HYBRIDR-16n-nuca-l0.03   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.015 -nuca
+HYBRIDR-16n-nuca-l0.04   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.02 -nuca
+HYBRIDR-16n-nuca-l0.05   : -nr 1 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.025 -nuca
+HYBRIDR-32n-nuca-l0.01   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.005 -nuca
+HYBRIDR-32n-nuca-l0.02   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.01 -nuca
+HYBRIDR-32n-nuca-l0.03   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.015 -nuca
+HYBRIDR-32n-nuca-l0.04   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.02 -nuca
+HYBRIDR-32n-nuca-l0.05   : -nr 2 -nc 2 -t MESH -cdegree 8 -hybrid 1.0 -nvc 2 -max-msgs 400000 -fsize 1024 -l 0.025 -nuca
+HYBRIDR-64n-nuca-l0.01   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.005 -nuca
+HYBRIDR-64n-nuca-l0.02   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca
+HYBRIDR-64n-nuca-l0.03   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.015 -nuca
+HYBRIDR-64n-nuca-l0.04   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02 -nuca
+HYBRIDR-64n-nuca-l0.05   : -nr 1 -nc 8 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.025 -nuca
+HYBRIDR-128n-nuca-l0.01   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.005 -nuca
+HYBRIDR-128n-nuca-l0.02   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.01 -nuca
+HYBRIDR-128n-nuca-l0.03   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.015 -nuca
+HYBRIDR-128n-nuca-l0.04   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.02 -nuca
+HYBRIDR-128n-nuca-l0.05   : -nr 1 -nc 16 -t TORUS -cdegree 8 -hybrid 0.5 -nvc 2 -max-msgs 400000 -fsize 512 -l 0.025 -nuca

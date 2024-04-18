@@ -1,0 +1,8 @@
+64	bfly	BFLY	4	3	4	0.00
+64	cmesh4	MESH	4	4	4	0.00
+64	cmesh2	MESH	8	4	2	0.00
+64	mesh	MESH	8	8	1	0.00
+64	cmesh-L4	MESH	4	4	4	0.00
+64	hybrid-T8	TORUS	4	2	8	0.50
+64	hybrid-M8	MESH	4	2	8	0.50
+64	hybrid-R8	TORUS	1	8	8	0.50
